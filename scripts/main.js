@@ -9,7 +9,7 @@ textin1.addEventListener('change', (ev) => {
 })
 
 let textin2 = document.querySelector('input[name="input-val2"]');
-textin2.addEventListener('change', (ev) => {
+textin2.addEventListener('click', (ev) => {
     let text2 = ev.target.value;
     textlink2.innerHTML = text2;
     console.log(text2);
